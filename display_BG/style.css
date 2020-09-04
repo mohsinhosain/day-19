@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+h2,p,cite,blockquote,i,u,b,a.y,code,span,div.x{
+    background-color: rgb(13, 82, 185);
+    margin-bottom:30px;
+}
+
+
+.test{
+    text-align:center;
+    }
+li{
+    display:inline-block;
+   
+   
+}
+.menu li a{
+    display:inline-block;
+    padding: 10px 110px;
+    margin-left: -5px;;
+    text-decoration: none;
+    border: 2px solid yellowgreen;
+    max-width: 100%;
+    background-color: rgb(21, 118, 156);
+}
+ul.menu{
+    text-align: center;
+}
+ul.menu li a:hover{
+    color: whitesmoke;
+    background-color: rgb(6, 36, 70);
+    border-color: rgb(68, 7, 87);
+    transition:.3s;
+}
+
+img{
+    border: 2px solid rgba(26, 78, 173, 0.3);
+    box-shadow: 5px 5px 10px ;
+}
